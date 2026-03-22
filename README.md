@@ -19,34 +19,24 @@ Sistem, güvenlik süreçlerini insan yorumuna değil, **değiştirilemez matema
 
 Sistemin kalbinde yer alan, kriptografik doğrulama yapan IoT kontrol ünitesinin tasarım detayları aşağıdadır:
 
-### 🧩 PCB Tasarımı
-
+## 🧩 PCB Tasarımı
 <p align="center">
-  <img src="images/a.png" width="600">
+  <img src="b.png" width="700">
 </p>
 
----
-
-### ⚙️ PCB Yerleşim (Routing)
-
+## ⚙️ PCB Yerleşim (Routing)
 <p align="center">
-  <img src="images/d.png" width="700">
+  <img src="d.png" width="700">
 </p>
 
----
-
-### 🔬 Devre Şeması
-
+## 🔬 Devre Şeması
 <p align="center">
-  <img src="images/c.png" width="900">
+  <img src="c.png" width="900">
 </p>
 
----
-
-### 🧠 Donanım Modeli (3D)
-
+## 🧠 Donanım Modeli (3D)
 <p align="center">
-  <img src="images/a.png" width="600">
+  <img src="a.png" width="600">
 </p>
 
 ---
