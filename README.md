@@ -22,7 +22,7 @@ Sistemin kalbinde yer alan, kriptografik doğrulama yapan IoT kontrol ünitesini
 ### 🧩 PCB Tasarımı
 
 <p align="center">
-  <img src="images/b.png" width="700">
+  <img src="images/a.png" width="600">
 </p>
 
 ---
