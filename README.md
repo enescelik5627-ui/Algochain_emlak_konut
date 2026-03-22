@@ -6,7 +6,7 @@
 
 Bu proje sadece bir yazılım değil, Türkiye'de site yönetim teknolojileri için yeni bir standart belirleyen ve geleceğin yaşam alanlarını bugünden inşa eden bir vizyondur. Her etkileşimin temel taşı; kanıtlanabilir, geri alınamaz ve denetlenebilir bir güven ağı oluşturmaktır.
 
-🔗 **[Kapsamlı Proje Sunumunu Görüntüle (PDF)](Merkeziyetsiz_Güvenlik_Yeni_Nesil_Yaşam%20(1).pdf)**
+🔗 **[Kapsamlı Proje Sunumunu Görüntüle (PDF)](Merkeziyetsiz_Güvenlik_Yeni_Nesil_Yaşam (1).pdf)**
 
 ---
 
