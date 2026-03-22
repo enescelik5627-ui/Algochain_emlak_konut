@@ -1,38 +1,38 @@
-```python
-import pandas as pd
-import random
+import hashlib
 import time
+import json
 
-def generate_data(n=100):
-    users = ["Resident", "Guest", "Courier"]
-    locations = ["Gate A", "Gate B", "Parking", "Lobby"]
-    
-    data = []
-    
-    for _ in range(n):
-        user = random.choice(users)
-        location = random.choice(locations)
-        
-        qr_valid = random.choice([True, False])
-        attempt_delay = random.randint(0, 60)  # saniye
-        
-        # risk hesaplama (basit model)
-        if qr_valid and attempt_delay < 20:
-            risk = random.randint(1, 30)
-            status = "Approved"
-        else:
-            risk = random.randint(60, 100)
-            status = "Denied"
-        
-        data.append({
-            "user_type": user,
-            "location": location,
-            "qr_valid": qr_valid,
-            "scan_delay_sec": attempt_delay,
-            "risk_score": risk,
-            "status": status,
-            "timestamp": int(time.time()) - random.randint(0, 10000)
-        })
-    
-    return pd.DataFrame(data)
-```
+class BlockchainEntry:
+    def __init__(self, user_id, entry_type, status):
+        self.timestamp = time.time()
+        self.user_id = user_id
+        self.entry_type = entry_type  # GUEST, COURIER, SERVICE
+        self.status = status
+        self.hash = self._generate_hash()
+
+    def _generate_hash(self):
+        """Her giriş denemesini zincire hash'lenmiş bir kayıt olarak işler."""
+        block_string = json.dumps({
+            "ts": self.timestamp,
+            "uid": self.user_id,
+            "type": self.entry_type,
+            "st": self.status
+        }, sort_keys=True).encode()
+        return hashlib.sha256(block_string).hexdigest()
+
+class DecentralizedLedger:
+    def __init__(self):
+        self.__chain = []  # Private chain to prevent direct manipulation
+
+    def record_access(self, user_id, entry_type, status="AUTHORIZED"):
+        """Giriş hareketlerini otonom ve değiştirilemez olarak kaydeder."""
+        new_entry = BlockchainEntry(user_id, entry_type, status)
+        self.__chain.append(new_entry)
+        return new_entry.hash
+
+    def get_all_logs(self):
+        """Şeffaf ve denetlenebilir kayıt listesi sunar."""
+        return [vars(entry) for entry in self.__chain]
+
+# Singleton instance
+ledger = DecentralizedLedger()
