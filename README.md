@@ -1,5 +1,12 @@
 # 🧠 Blockchain Destekli Akıllı Giriş ve Doğrulama Ekosistemi
 
+# Blockchain Destekli Merkeziyetsiz Akıllı Giriş Sistemi
+
+> 📂 **[Proje Sunumunu Görüntüle (PDF)](Merkeziyetsiz_Guvenlik_Yeni_Nesil_Yasam.pdf)**
+> [cite_start]*Türkiye'de site yönetim teknolojileri için yeni bir standart.* [cite: 26, 132]
+
+---
+
 ## 📌 Proje Tanımı
 
 Bu proje, geleneksel merkezi güvenlik sistemlerindeki insan hatasını ve veri manipülasyonu risklerini ortadan kaldırmak amacıyla geliştirilmiş, **blockchain tabanlı bir akıllı giriş ve doğrulama platformudur**.
