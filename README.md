@@ -1,8 +1,13 @@
 # 🧠 Blockchain Destekli Akıllı Giriş ve Doğrulama Ekosistemi
 
+---
 
-> 📂 **[Proje Sunumunu Görüntüle (PDF)](Merkeziyetsiz_Guvenlik_Yeni_Nesil_Yasam.pdf)**
-> [cite_start]*Türkiye'de site yönetim teknolojileri için yeni bir standart.* [cite: 26, 132]
+## 🚀 Geleceğin Güvenlik Ekosistemi
+
+Bu proje sadece bir yazılım değil, Türkiye'de site yönetim teknolojileri için yeni bir standart belirleyen ve geleceğin yaşam alanlarını bugünden inşa eden bir vizyondur. Her etkileşimin temel taşı; kanıtlanabilir, geri alınamaz ve denetlenebilir bir güven ağı oluşturmaktır.
+
+🔗 **[Kapsamlı Proje Sunumunu Görüntüle (PDF)](Merkeziyetsiz_Guvenlik_Yeni_Nesil_Yasam.pdf)**
+
 
 ---
 
